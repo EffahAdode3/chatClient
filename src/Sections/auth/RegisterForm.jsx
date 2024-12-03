@@ -50,6 +50,7 @@ export default function RegisterForm() {
     handleSubmit,
     formState: { errors },
   } = methods;
+  
   const onSubmit = async (data) => {
     try {
       setIssent(true);
